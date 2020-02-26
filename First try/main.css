@@ -62,8 +62,8 @@ body {
 
 .intro {
     border-radius: 5px;
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    width: 300px;
     background-image: linear-gradient(#850007, #B05B32);
     opacity: 0.9;
     padding: 40px;
@@ -73,9 +73,29 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     padding-bottom: 20px
     
 }
 
+h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.about-me {
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	background-image: linear-gradient(#850007, #B05B32);
+    opacity: 0.9;
+    padding: 40px;
+    color: #040404;
+    margin-top: 80px;
+    margin-left: 540px;
+  }
 
