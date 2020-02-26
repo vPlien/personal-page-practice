@@ -69,17 +69,30 @@ body {
 
 h1 {
     font-size: 70px;
-    padding-bottom: 20px
-    
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 h2 {
 	font-size: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	
 }
 
 p {
 	font-size: 15px;
+}
+
+a {
+	color: #030305;
+	font-size: 30px;
+	margin: 10px;
+	text-align: center;
+}
+
+a:hover {
+	color: #022948;
 }
 
 /*
@@ -91,33 +104,35 @@ p {
 .intro {
     border-radius: 5px;
     height: 100px;
-    width: 300px;
+    width: 500px;
     background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
-    color: #040404;
-    margin-top: 40px;
-    margin-left: 100px;
+    color: #030305;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .about-me {
 	border-radius: 5px;
 	height: 200px;
-	width: 300px;
+	width: 500px;
 	background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
-    color: #040404;
-    margin-top: 80px;
-    margin-left: 540px;
+    color: #030305;
+    margin-top: 30px;
+    margin-left: 440px;
   }
   
   .projects {
-	border-radius: 5px;
+	border-radius: 3px;
 	height: 300px;
-	width: 800px;
+	width: 940px;
 	background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
-    color: #040404;
-    margin-top: 80px;
-    margin-left: 40px;
+    color: #030305;
+    margin-top: 30px;
+    /* margin-left: 20px; */
+    Margin-right: auto;
   }
 
