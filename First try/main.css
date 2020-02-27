@@ -68,26 +68,28 @@ body {
 */
 
 h1 {
-    font-size: 70px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    Letter-spacing: 1px;
 }
 
 h2 {
-	font-size: 30px;
-	padding-bottom: 20px;
+	font-size: 18px;
+	padding-bottom: 10px;
+	letter-spacing: 0.75px;
 	text-align: center;
-	
 }
 
 p {
-	font-size: 15px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
 }
 
 a {
 	color: #030305;
 	font-size: 30px;
-	margin: 10px;
+	margin: 20px;
 	text-align: center;
 }
 
@@ -95,11 +97,23 @@ a:hover {
 	color: #022948;
 }
 
-.line-break {
-    width: 200px;
+.line-break-intro {
+    width: 150px;
     margin: 0 auto;
-    border-top: 2px solid black;
-    Padding-bottom: 15px;
+    border-top: 2px dashed #030305;
+    Padding-bottom: 40px;
+}
+.line-break-about {
+    width: 125px;
+    margin: 0 auto;
+    border-top: 2px dashed #030305;
+    Padding-bottom: 40px;
+}
+.line-break-projects {
+    width: 100px;
+    margin: 0 auto;
+    border-top: 2px dashed #030305;
+    Padding-bottom: 40px;
 }
 
 /*
@@ -110,40 +124,40 @@ a:hover {
 
 .intro {
     /* border-radius: 5px; */
-    height: 100px;
+    height: auto;
     width: auto;
     background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
     color: #030305;
-    /* margin-right: 150px;
-    margin-left: 150px; */
-    Margin: 10px;
+    Margin-top: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
     text-align: center;
 }
 
 .about-me {
 	/* border-radius: 5px; */
-	height: 200px;
+	height: auto;
 	width: auto;
 	background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
     color: #030305;
-    /* margin-top: 30px;
-    margin-left: 10px; */
-    Margin: 10px;
+    Margin-top: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
   }
   
   .projects {
 	/* border-radius: 3px; */
-	height: 300px;
+	height: auto;
 	width: auto;
 	background-image: linear-gradient(#850007, #B05B32);
     padding: 40px;
     color: #030305;
-    /* margin-top: 30px;
-    margin-left: 10px;
-    Margin-right: 10px; */
-    Margin: 10px;
+    margin-top: 20px;
+    margin-left: 75px;
+    Margin-right: 75px;
+    Margin-bottom: 20px;
   }
 
 
