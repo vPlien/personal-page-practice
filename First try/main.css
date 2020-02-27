@@ -135,6 +135,19 @@ a:hover {
     text-align: center;
 }
 
+.social-links {
+    /* border-radius: 5px; */
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(#850007, #B05B32);
+    padding: 40px;
+    color: #030305;
+    Margin-top: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+}
+
 .about-me {
 	/* border-radius: 5px; */
 	height: auto;
