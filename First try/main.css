@@ -89,8 +89,8 @@ p {
 a {
 	color: #030305;
 	font-size: 30px;
-	margin: 20px;
-	text-align: center;
+	/* margin: 20px; */
+	/* text-align: center; */
 }
 
 a:hover {
@@ -144,8 +144,9 @@ a:hover {
     color: #030305;
     Margin-top: 20px;
     margin-right: 75px;
-    margin-left: 75px;
+    margin-left: 550px;
     text-align: center;
+    grid-area: b;
 }
 
 .about-me {
@@ -158,6 +159,7 @@ a:hover {
     Margin-top: 20px;
     margin-right: 75px;
     margin-left: 75px;
+    Grid-area: a;
   }
   
   .projects {
@@ -172,6 +174,8 @@ a:hover {
     Margin-right: 75px;
     Margin-bottom: 20px;
   }
+
+
 
 
 
